@@ -1,0 +1,24 @@
+
+.navContainer{
+    display:flex;
+    justify-content:space-between;
+    
+
+    
+
+}
+.itemsContainerUl{
+    display: flex;
+    
+    
+}
+.liItem{
+    font-size: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.navIcon{
+    display:none;
+}
+

@@ -1,0 +1,16 @@
+.Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label_headings{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.individual_skills{
+    font-style: italic;
+    font-size: 20px;
+}

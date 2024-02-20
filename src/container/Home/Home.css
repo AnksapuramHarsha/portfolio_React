@@ -1,0 +1,46 @@
+.home{
+    margin-top: 150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: typingEffectAnimation 2.5s steps(30,end);
+}
+.home h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 250px;
+    
+}
+.home p{
+    color:yellow;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+@keyframes typingEffectAnimation {
+    from{
+        width:200%;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    to{
+        width:100%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        
+    }
+}
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    padding: 5px;
+    color: chocolate;
+    background-color: black;
+    cursor: pointer;
+}
+.button button:hover{
+    background-color:blanchedalmond;
+}

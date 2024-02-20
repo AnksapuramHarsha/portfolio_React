@@ -1,0 +1,17 @@
+.about_content{
+    margin: 10px 5px;
+}
+.about_content p{
+font-size: 20px;
+padding: 10px;
+font-style: italic;
+
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details span{
+    font-size: 20px;
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    background-color: aqua;
+
+}
+html{
+    font-size: 30px;
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
